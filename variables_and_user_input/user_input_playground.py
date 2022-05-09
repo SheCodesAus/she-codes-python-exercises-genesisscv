@@ -1,6 +1,9 @@
-name = input("What is your name? ")
-print(name)
+# name = str(input("What is your name?"))
+# age = int(input("How old are you?"))
+# x = 90 - age
+# print(name, "will turn 90 in", x, "years!")
 
-number = input("Enter a number")
-print(int(number) + 5)
-print(number + 5)
+x = float(input("Type a number"))
+y = float(input("Type another number"))
+xy = x * y
+print(int(xy))
