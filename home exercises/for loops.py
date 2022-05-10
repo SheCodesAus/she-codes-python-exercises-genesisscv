@@ -34,4 +34,5 @@ mailing_list = [
     ["Ivy", "noreply@goldendreamers.xyz"],
 ]
 
-for item in mailing_list
+for item in mailing_list:
+    print(f"{item[0]}: {item[1]}")
