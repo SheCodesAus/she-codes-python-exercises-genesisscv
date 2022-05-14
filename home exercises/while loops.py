@@ -11,6 +11,17 @@
 
 # print(completed_list)
 
+# Q1 take two~
+# number = "not nothing"
+# list = []
+# while number != "":
+#     number = input("Enter a number: ")
+#     list.append(number)
+# list.pop()
+# # List comprehension - recreating the list with int instead of str
+# list = [int(i) for i in list]
+# print(sum(list))
+
 # Q2
 
 # maximum = int(input(" Please Enter the Maximum Value : "))

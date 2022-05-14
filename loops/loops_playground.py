@@ -7,13 +7,31 @@
 # for num in range(0, 11, 2):
 #     print(num)
 
-# chilli_wishlist = ["igloo", "chicken", "donut toy", "cardboard box"]
+# challenge beggining!
+
+# for num in range(0, 101):
+#     print(num)
+# for num in range(0, 101, 5):
+#     print(num)
+
+# end
+
+
+chilli_wishlist = ["igloo", "chicken", "donut toy", "cardboard box"]
 
 # for item in range(len(chilli_wishlist)):
 #     print(chilli_wishlist[item])
 
 # for item in chilli_wishlist:
 #     print(item)
+
+# challenge start!
+
+# for item in range(len(chilli_wishlist)):
+#     print(f"Chilli wants:{chilli_wishlist[item]}")
+
+# # challenge finish!
+
 
 # chilli_wishlist = [
 #     ["igloo"],
@@ -30,11 +48,12 @@
 # while guess != "a":
 #     guess = input("Guess a letter:")
 
-# counter = 10
-# while counter <= 10:
-#     print(counter)
-# counter = counter + 1
+counter = 1
+while counter <= 10:
+    print(counter)
+    counter = counter + 1
 
-blank = ""
-while blank != "":
-    blank = input("Guess a name: ")
+# blank = ""
+# while blank != "":
+#     blank = input("Guess a name: ")
+#     print("Guess again!")

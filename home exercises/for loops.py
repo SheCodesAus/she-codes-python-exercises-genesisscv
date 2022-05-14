@@ -6,11 +6,9 @@
 #     print(f"{user_number} * {1} = {user_number * i}")
 
 
-# # Q2 ask mentor
+# # Q2
 
-# number = 0
-
-# user_number = int(iput())
+##################
 
 
 # Q3
