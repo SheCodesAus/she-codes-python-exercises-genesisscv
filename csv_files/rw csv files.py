@@ -127,4 +127,4 @@ minimum = velocities[0]
 for number in velocities:
     if minimum > number:
         minimum = number
-print minimum
+print(minimum)

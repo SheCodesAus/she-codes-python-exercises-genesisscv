@@ -1,4 +1,4 @@
-prices = {
+groceries = {
     "Baby Spinach": 2.78,
     "Hot Chocolate": 3.70,
     "Crackers": 2.10,
@@ -16,6 +16,17 @@ quantity = {
     "Oranges": 2
 }
 
+for key in groceries:
+    "price: %s" % groceries[key]
+    "quantity: %s" % quantity[key]
+
+total = 0
+for key in groceries:
+    value = groceries[key] * quantity[key]
+
+value1 = (round)
+# for item in groceries:
+# print(f"{item}: ${groceries[item]}")
 # quantity = {
 #     "Baby Spinach": 2,
 #     "Hot Chocolate": 1,
