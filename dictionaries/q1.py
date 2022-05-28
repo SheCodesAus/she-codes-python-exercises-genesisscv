@@ -1,4 +1,7 @@
-groceries = {
+from xml.etree.ElementTree import tostring
+
+
+prices = {
     "Baby Spinach": 2.78,
     "Hot Chocolate": 3.70,
     "Crackers": 2.10,
@@ -15,23 +18,17 @@ quantity = {
     "Carrots": 4,
     "Oranges": 2
 }
-
-for key in groceries:
-    "price: %s" % groceries[key]
-    "quantity: %s" % quantity[key]
+for key in prices:
+    print(key)
+    print("price: %s" % prices[key])
+    print("stock: %s" % quantity[key])
 
 total = 0
-for key in groceries:
-    value = groceries[key] * quantity[key]
+for key in prices:
+    value = prices[key] * quantity[key]
+    print(value)
+    total = total + value
+print(total)
 
-value1 = (round)
-# for item in groceries:
-# print(f"{item}: ${groceries[item]}")
-# quantity = {
-#     "Baby Spinach": 2,
-#     "Hot Chocolate": 1,
-#     "Crackers": 4,
-#     "Bacon": 0,
-#     "Carrots": 8,
-#     "Oranges": 5
-# }
+
+# I have to modify this
